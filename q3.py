@@ -1,7 +1,5 @@
-a=int(input("Enter a number: "))
-factorial=1
-if(a>=1):
-    for i in range(1,a+1):
-        factorial=factorial *i
-
-print(factorial)
+n=int(input("Enter a number: "))
+dict={ }
+for i in range(1,n+1):
+     dict[i]=i*i
+print(dict)
